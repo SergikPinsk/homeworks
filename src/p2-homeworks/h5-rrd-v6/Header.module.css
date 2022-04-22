@@ -1,0 +1,26 @@
+.menu {
+    width: 70px;
+    background-color: chartreuse;
+    text-align: center;
+    align-self: center;
+}
+
+.header {
+  display: flex;
+    width: 280px;
+    transition-duration: 500ms;
+    transform: translate(-220px);
+}
+.header:hover {
+    transition-duration: 500ms;
+    transform: translate(0px);
+}
+
+.block {
+    width: 50%;
+    background-color: aquamarine;
+}
+.header a {
+    text-decoration: none;
+    margin-right: 10px;
+}
